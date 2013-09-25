@@ -4,7 +4,9 @@
 
 [View README.md raw file](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
 
-## Examples with Code
+## Code Examples with Preview
+
+### Block Elements
 
 <table>
   <tr><td>Code</td><td>Preview</td></tr>
@@ -157,15 +159,15 @@ Header 2
   </tr>
   <tr>
     <td>
-<pre><code>1. Red
-1. Green
-1. Blue</code></pre>
+<pre><code>1. Buy flour and salt
+1. Mix together with water
+1. Bake</code></pre>
     </td>
     <td>
       <ol>
-        <li>Red</li>
-        <li>Green</li>
-        <li>Blue</li>
+        <li>Buy flour and salt</li>
+        <li>Mix together with water</li>
+        <li>Bake</li>
       </ol>
     </td>
   </tr>
@@ -182,6 +184,103 @@ Header 2
     <td>
       <p>Normal paragraph.</p>
       <pre><code>Code</code></pre>
+    </td>
+  </tr>
+  
+  <!-- Horizontal rules -->
+  <tr>
+    <td colspan="2">Horizontal Rules</td>
+  </tr>
+  <tr>
+    <td>
+<pre><code>* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------</code></pre>
+    </td>
+    <td>
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+    </td>
+  </tr>
+</table>
+
+### Inline Elements
+
+<table>
+  <tr><td>Code</td><td>Preview</td></tr>
+  
+  <!--- Links -->
+  <tr>
+    <td colspan="2">Links</td>
+  </tr>
+  <tr>
+    <td>
+      <pre><code>This is [an example](http://example.com "Example") link.
+
+[This link](http://example.com) has no title attr.
+
+This is [an example] [id] reference-style link.
+
+[id]: http://example.com "Optional Title"</code></pre>
+    </td>
+    <td>
+      <p>This is <a href="http://example.com" title="Example">an example</a> link.</p>
+      <p><a href="http://example.com">This link</a> has no title attr.</p>
+      <p>This is <a href="http://example.com" title="Optinal Title">an example</a> reference-style link.</p>
+    </td>
+  </tr>
+  
+  <!--- Emphasis -->
+  <tr>
+    <td colspan="2">Emphasis</td>
+  </tr>
+  <tr>
+    <td>
+      <pre><code>*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__</td>
+    <td>
+      <p><em>single asterisks</em></p>
+      <p><em>single underscores</em></p>
+      <p><strong>double asterisks</strong></p>
+      <p><strong>double underscores</strong></p>
+    </td>
+  </tr>
+  
+  <!--- Code -->
+  <tr>
+    <td colspan="2">Emphasis</td>
+  </tr>
+  <tr>
+    <td>
+      <pre><code>This paragraph has some `code` in it.</td>
+    <td>
+      <p>This paragraph has some <code>code</code> in it.</p>
+    </td>
+  </tr>
+  
+  <!--- Images -->
+  <tr>
+    <td colspan="2">Image</td>
+  </tr>
+  <tr>
+    <td>
+      <pre><code>![Alt Text](http://placehold.it/200x50.jpg "Optional Title")</td>
+    <td>
+      <p><img src="http://placehold.it/200x50.jpg" title="Optional Title" alt="Alt Text" /></p>
     </td>
   </tr>
 </table>
