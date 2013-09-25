@@ -6,13 +6,13 @@ A large collection of code samples which have been tested against GitHub's markd
 
 ##### This Repo
 
-- README.md (this file) ([preview](https://github.com/adamschwartz/github-markdown-kitchen-sink/blob/master/README.md), [raw](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md))
-- TEST.md (used to test the examples from this file, which are pre-generated) ([preview](https://github.com/adamschwartz/github-markdown-kitchen-sink/blob/master/README.md), [raw](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md))
+- README.md ([preview](https://github.com/adamschwartz/github-markdown-kitchen-sink/blob/master/README.md), [raw](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)) – this file
+- TEST.md ([preview](https://github.com/adamschwartz/github-markdown-kitchen-sink/blob/master/TEST.md), [raw](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/TEST.md)) — used to test the examples from this file, which are pre-generated
 
 ##### Markdown
 
-- Original [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) from John Gruber
-- [GitHub-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
+- [Original Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) from John Gruber
+- [GitHub-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) from GitHub
 
 ## Code Examples with Preview
 
@@ -20,7 +20,7 @@ A large collection of code samples which have been tested against GitHub's markd
 
 <table>
   <tr><td>Code</td><td>Preview</td></tr>
-  
+
   <!--- Paragraphs -->
   <tr>
     <td colspan="2">Paragraph</td>
@@ -31,7 +31,7 @@ A large collection of code samples which have been tested against GitHub's markd
     </td>
     <td>This is a paragraph.</td>
   </tr>
-  
+
   <!--- Headers -->
   <tr>
     <td colspan="2">Headers (Sextext-style)</td>
@@ -91,7 +91,7 @@ Header 2
       <h6>Header 6</h6>
     </td>
   </tr>
-  
+
   <!--- Blockquotes -->
   <tr>
     <td colspan="2">Blockquote</td>
@@ -117,9 +117,9 @@ Header 2
       <pre><code>> ## This is a header.
 > 1. This is the first list item.
 > 2. This is the second list item.
-> 
+>
 > Here's some example code:
-> 
+>
 >     Markdown.generate();</code></pre>
       <!--- End code exmaple -->
     </td>
@@ -135,7 +135,7 @@ Header 2
       </blockquote>
     </td>
   </tr>
-  
+
   <!--- Lists -->
   <tr>
     <td colspan="2">List</td>
@@ -184,7 +184,7 @@ Header 2
 
   <!-- Code blocks -->
   <tr>
-    <td colspan="2">Ordered List</td>
+    <td colspan="2">Code Block</td>
   </tr>
   <tr>
     <td>
@@ -196,7 +196,7 @@ Header 2
       <pre><code>Code</code></pre>
     </td>
   </tr>
-  
+
   <!-- Horizontal rules -->
   <tr>
     <td colspan="2">Horizontal Rules</td>
@@ -227,7 +227,7 @@ Header 2
 
 <table>
   <tr><td>Code</td><td>Preview</td></tr>
-  
+
   <!--- Links -->
   <tr>
     <td colspan="2">Links</td>
@@ -248,7 +248,7 @@ This is [an example] [id] reference-style link.
       <p>This is <a href="http://example.com" title="Optinal Title">an example</a> reference-style link.</p>
     </td>
   </tr>
-  
+
   <!--- Emphasis -->
   <tr>
     <td colspan="2">Emphasis</td>
@@ -269,10 +269,10 @@ __double underscores__</td>
       <p><strong>double underscores</strong></p>
     </td>
   </tr>
-  
+
   <!--- Code -->
   <tr>
-    <td colspan="2">Emphasis</td>
+    <td colspan="2">Code</td>
   </tr>
   <tr>
     <td>
@@ -281,7 +281,7 @@ __double underscores__</td>
       <p>This paragraph has some <code>code</code> in it.</p>
     </td>
   </tr>
-  
+
   <!--- Images -->
   <tr>
     <td colspan="2">Image</td>
