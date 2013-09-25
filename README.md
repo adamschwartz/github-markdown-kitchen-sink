@@ -101,14 +101,15 @@ Header 2
   </tr>
   <tr>
     <td>
-      <!--- End code exmaple -->
+      <!--- Code exmaple -->
       <pre><code>> ## This is a header.
 > 1. This is the first list item.
 > 2. This is the second list item.
 > 
 > Here's some example code:
 > 
->     return shell_exec("echo $input | $markdown_script");</code></pre>
+>     Markdown.generate();</code></pre>
+      <!--- End code exmaple -->
     </td>
     <td>
       <blockquote>
@@ -118,7 +119,7 @@ Header 2
             <li>This is the second list item.</li>
           </ol>
           <p>Here's some example code:</p>
-          <pre><code>return shell_exec("echo $input | $markdown_script");</code></pre>
+          <pre><code>Markdown.generate();</code></pre>
       </blockquote>
     </td>
   </tr>
@@ -166,6 +167,21 @@ Header 2
         <li>Green</li>
         <li>Blue</li>
       </ol>
+    </td>
+  </tr>
+
+  <!-- Code blocks -->
+  <tr>
+    <td colspan="2">Ordered List</td>
+  </tr>
+  <tr>
+    <td>
+<pre><code>Normal paragraph.
+    Code</code></pre>
+    </td>
+    <td>
+      <p>Normal paragraph.</p>
+      <pre><code>Code</code></pre>
     </td>
   </tr>
 </table>
