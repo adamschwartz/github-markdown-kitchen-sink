@@ -1,8 +1,12 @@
 # GitHub Markdown Kitchen Sink
 
-| A large set of examples of what works in README.md files on GitHub.
+A large collection of code samples which have been tested against GitHub's markdown parser... so you don't have to.
 
-[View README.md raw file](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+#### Resources
+
+- [This README.md as a raw file](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+- [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) from Daring Fireball
+- [TEST.md](TEST.md) file used to test the syntax used in the code examples below
 
 ## Code Examples with Preview
 
