@@ -278,9 +278,9 @@ __double underscores__</td>
   </tr>
   <tr>
     <td>
-      <pre><code>![Alt Text](http://placehold.it/200x50.jpg "Optional Title")</td>
+      <pre><code>![Alt Text](http://placehold.it/200x50 "Image Title")</td>
     <td>
-      <p><img src="http://placehold.it/200x50.jpg" title="Optional Title" alt="Alt Text" /></p>
+      <p><img src="http://placehold.it/200x50" title="Image Title" alt="Alt Text" /></p>
     </td>
   </tr>
 </table>
