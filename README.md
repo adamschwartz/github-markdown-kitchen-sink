@@ -245,7 +245,7 @@ This is [an example] [id] reference-style link.
     <td>
       <p>This is <a href="http://example.com" title="Example">an example</a> link.</p>
       <p><a href="http://example.com">This link</a> has no title attr.</p>
-      <p>This is <a href="http://example.com" title="Optinal Title">an example</a> reference-style link.</p>
+      <p>This is <a href="http://example.com" title="Optional Title">an example</a> reference-style link.</p>
     </td>
   </tr>
 
