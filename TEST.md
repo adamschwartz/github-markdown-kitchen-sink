@@ -196,6 +196,6 @@ This paragraph has some `code` in it.
 
 
 
-![Alt Text](http://placehold.it/200x50 "Image Title")
+![Alt Text](https://get.svg.workers.dev/?height=50&width=200&stroke=rgb(100,100,100) "Image Title")
 
-    ![Alt Text](http://placehold.it/200x50 "Image Title")
+    ![Alt Text](https://get.svg.workers.dev/?height=50&width=200&stroke=rgb(100,100,100) "Image Title")
