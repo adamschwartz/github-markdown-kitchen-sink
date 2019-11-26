@@ -288,9 +288,9 @@ __double underscores__</td>
   </tr>
   <tr>
     <td>
-      <pre><code>![Alt Text](http://placehold.it/200x50 "Image Title")</td>
+      <pre><code>![Alt Text](https://get.svg.workers.dev/?height=50&width=200&stroke=rgb(100,100,100) "Image Title")</td>
     <td>
-      <p><img src="http://placehold.it/200x50" title="Image Title" alt="Alt Text" /></p>
+      <p><img src="https://get.svg.workers.dev/?height=50&width=200&stroke=rgb(100,100,100)" title="Image Title" alt="Alt Text" /></p>
     </td>
   </tr>
 </table>
